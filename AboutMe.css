@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+.Header{
+  background-color: #596c68;
+  position: relative;
+}
+.Header ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+ background-image: url('https://pre00.deviantart.net/94a4/th/pre/f/2009/057/1/a/old_scroll_texture_iii_by_isthar_art.jpg');
+ 
+
+}
+.Header li{
+  float: left;
+  
+}
+.Header li a{
+ font-family: 'Maven Pro', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 100px;
+  color: black;
+}
+.Header li a:hover:not(.active){
+  background-color: #b5a397;
+}
+.active{
+  background-color: #6a5750;
+}
+body{
+  background-color: #f1f1f1;
+}
+body{
+  background-image: url('https://i.ytimg.com/vi/RGrKp6TQj98/maxresdefault.jpg');
+  background-size: cover;
+}
+.AboutMe{
+  text-align: center;
+  margin-top: 75px;
+  font-size: 115px;
+  text-decoration: underline;
+  font-family: 'Cinzel', serif;
+  animation-name: Test;
+  animation-duration: 1.0s;
+  
+}
+#AboutMeText{
+  animation-name: Test2;
+  animation-duration: 3.0s;
+  animation-delay: 1.0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes Test2{
+  from {letter-spacing: 0px;}
+  to {letter-spacing: 40px;}
+  
+}
+@keyframes Test {
+  from {margin-top:-1000px;}
+  to {margin-top: 75px;}
+}
+.ButtonRow{
+  margin-top: 70px;
+  display: block
+}
+
+#Button\ 1{ 
+  width: 200px;
+  height: 200px;
+margin-left: 200px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  background-image: url('http://myinsuranceshark.com/wp-content/uploads/2016/09/books-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+    
+#Button\ 2{
+  width:200px;
+margin-left: 200px;
+    margin-bottom: 50px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('http://myinsuranceshark.com/wp-content/uploads/2016/09/books-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px; 
+   border: none;
+}
+#Button\ 3{
+  width:200px;
+  height: 200px;
+    margin-bottom: 50px;
+margin-left: 200px;
+  border-radius: 50%;
+  background-image: url('http://myinsuranceshark.com/wp-content/uploads/2016/09/books-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px;
+   border: none;
+}
+#Education{
+  position: relative;
+  top: 120px;
+  font-family: 'Playfair Display SC', serif;
+}
+#Experience{
+  position: relative;
+  top: 120px;
+  font-family: 'Playfair Display SC', serif;
+}
+#Skills{
+  position: relative;
+  top: 120px;
+  font-family: 'Playfair Display SC', serif;
+}
+.EducationModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    animation-name:  ModalTest1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  
+}
+@keyframes ModalTest1{
+    from {opacity: 0;}
+    to {opacity: 1;}
+  
+}
+
+
+.EducationModal-Content{
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 15px;
+    height: 400px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ExperienceModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    animation-name:  ModalTest2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+@keyframes ModalTest2{
+    from {opacity: 0;}
+    to {opacity: 1;}
+  
+}
+
+.ExperienceModal-Content{
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.SKillsModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      animation-name:  ModalTest3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+@keyframes ModalTest3{
+    from {opacity: 0;}
+    to {opacity: 1;}
+  
+}
+.SkillsModal-Content{
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.EducationModal-Content img{
+  position: relative;
+  top: 20px;
+  width: 3in;
+  height: 3in;
+  float: right;
+  transform: rotate(90deg);
+}
+.EducationModal-Content p{
+  position: relative;
+  top: 30px;
+}
