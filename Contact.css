@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+.Header{
+  background-color: #596c68;
+  position: relative;
+}
+.Header ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+ background-image: url('https://pre00.deviantart.net/94a4/th/pre/f/2009/057/1/a/old_scroll_texture_iii_by_isthar_art.jpg');
+ 
+
+}
+.Header li{
+  float: left;
+  
+}
+.Header li a{
+ font-family: 'Maven Pro', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 100px;
+  color: black;
+}
+.Header li a:hover:not(.active){
+  background-color: #b5a397;
+}
+.active{
+  background-color: #6a5750;
+}
+body{
+  background-color: #f1f1f1;
+}
+body{
+  background-image: url('https://i.ytimg.com/vi/RGrKp6TQj98/maxresdefault.jpg');
+  background-size: cover;
+}
+.image img{
+  float: left;
+  min-width: 30vw;
+  max-width: 31vw;
+  min-height: 25vl;
+  margin: 20px 45px;
+  padding: 20px;
+  position: static;
+}
+.contactList{
+ margin-right: 150px;
+ width: 40vw;
+ height: 40vl;
+ position: static;
+ float: right;
+}
+.contactList ul{
+   position: static;
+   list-style-type: none;
+   font-size: 30px;
+   line-height:80px;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+.contactList li a{
+  text-decoration: none;
+  color: black;
+}
+.contactList li a:hover{
+  color: white;
+}
+.contactList li a:visited{
+  color: #624464;
+}
+.contactList li a:link{
+  color:#ffd6a4;
+}
+.contactList ul h5{
+  font-style: italic;
+  font-variant: all-small-caps;
+}
